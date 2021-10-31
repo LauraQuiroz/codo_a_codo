@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./static/img/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/estilos.css">
+    <!-- CSS fontawesome -->
+    <link href="./static/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <!--load all styles -->
+    <script defer src="./static/fontawesome-free-5.15.4-web/js/all.js"></script>
+    <title>Laura Quiroz Seguros</title>
+</head>
+
+<body>
+
+    <header>
+        <nav id="header" class="navbar navbar-expand-lg navbar bg fixed-top">
+            <img width="60px" src="./static/img/logo.png" onmouseover="this.src='./static/img/negativo.png'" onmouseout="this.src='./static/img/logo.png'" alt="Logo animado" />
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Laura Quiroz Seguros</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+    <br>
+    <br>
+    <br>
+    <form action="./index.html"  class="container" id="formulario">
+        <div class="mb-3">
+            <label for="Input1" class="form-label">nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="John Doe">
+        </div>
+        <div class="mb-3">
+            <label for="Input1" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="mb-3">
+            <label for="Textarea1" class="form-label">Consulta</label>
+            <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione su Provincia</option>
+                <option value="CABA">CABA</option>
+                <option value="BUENOS AIRES">BUENOS AIRES</option>
+                <option value="CORDOBA">CORDOBA</option>
+                <option value="CORRIENTES">CORRIENTES</option>
+                <option value="MENDOZA">MENDOZA</option>
+                <option value="NEUQUEN">NEUQUEN</option>
+                <option value="SALTA">SALTA</option>
+                <option value="SAN LUIS">SAN LUIS</option>
+                <option value="TIERRA DEL FUEGO">TIERRA DEL FUEGO</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>
+        </div>
+    </form>
+
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-4">
+                <li>
+                    <i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/lauraquirozSeguros">Facebook</a>
+                </li>
+                <li>
+                    <i class="fab fa-twitter"></i><a href="https://twitter.com/LauraQuirozEE">Twitter</a>
+                </li>
+                <li>
+                    <i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/laura-quiroz-b19aa3123/">Linkedin</a>
+                </li>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <li><i class="fas fa-home"></i> Robertson 1060, Buenos Aires</li>
+                    <li><i class="fas fa-mobile-alt"></i> +5491158716413</li>
+                    <li><i class="far fa-envelope"></i> info@lauraquiroz.com.ar</li>
+
+
+
+                </address>
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items">
+                <a href="./Nosotros.html">Nosotros</a>
+
+                <a href="./contacto.html">Contáctenos</a>
+            </div>
+        </div>
+        <!--Modal-->
+
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="./static/js/scripts.js"></script>
+</body>
+
+</html>
